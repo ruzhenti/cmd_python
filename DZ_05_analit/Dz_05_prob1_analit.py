@@ -8,6 +8,6 @@ f1.close()
 print(text)   # Пищеваяабв ценность ( средниеабв значения ) в 100 г продукта: жирыабв, белки, углеводыабв'
 print( " ".join(filter(lambda x: "абв" not in x, text.split())))
 
-f2 = open("my_file_out.txt","w")
-f2.writelines(text)
+f2 = open("my_file_out.txt","w", encoding="utf-8")
+f2.writelines(" ".join(filter(lambda x: "абв" not in x, text.split())))
 f2.close()
