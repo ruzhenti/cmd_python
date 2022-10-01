@@ -2,8 +2,8 @@
 
 import sys
 
-from .config import STORE_PATH, EXPORT_PATH, IMPORT_PATH
-from .utils import (
+from config import STORE_PATH, EXPORT_PATH, IMPORT_PATH
+from utils import (
     get_numbers,
     is_entry_valid,
     convert_to_csv,
