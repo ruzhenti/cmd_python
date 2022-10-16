@@ -1,0 +1,6 @@
+13:23; operation : (123+0j) 1 (345+0j) result :Division error by 0!
+13:26; operation : 1/8 + 1/4 result :3/8
+18:55; operation : 2/5 * 1/3 result :2/15
+18:58; operation : (5+3j) + (4+1j) result :(9+4j)
+19:09; operation : 5/12 * 1/3 result :5/36
+19:59; operation : (4+1j) + (3+8j) result :(7+9j)
